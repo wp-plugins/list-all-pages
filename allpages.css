@@ -1,0 +1,58 @@
+/* =============================================================================
+   Pagelist styles
+   ========================================================================== */
+	#tjg-show-all	{
+		display:none;
+	}
+	   
+	 #adminmenu .wp-submenu#tjg-show-all	{
+		position:absolute;
+		display:none;
+		background:#fff;
+		border:1px solid #000;
+		z-index:9999;
+		cursor:default;
+	  }
+	  
+	  #adminmenu .toplevel_page_show-all-button .wp-menu-toggle	{
+		display:none;
+	  }
+	
+	#adminmenu .wp-submenu#tjg-show-all a	{
+		border-left:none;
+		border-right:none;
+		background:none;
+	}
+	
+
+	  
+	.pagelist	{
+		float:left;
+		padding:5px;
+		font-size:10px;
+	}
+		
+	.pagelist	dt,
+	.pagelist	dd	{
+		margin:2px 0;
+	}	
+
+	.pagelist > dt	{
+		padding: 0 0 2px;
+		border-bottom: 1px solid #d6dcda;
+	}
+
+	#adminmenu .pagelist > dt > a	{
+			font-weight:bold;
+		}
+
+	.pagelist dd	{
+	}
+	
+	.pagelist > dd a	{
+		color:#898989;
+	}
+	
+	.pagelist > dd > a	{
+	}
+
