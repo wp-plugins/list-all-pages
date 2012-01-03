@@ -9,6 +9,7 @@
 		*/
 	
 	function buildPageList()	{
+		$site = get_bloginfo('wpurl');
 		$pluginDir = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__));
 ?>
 		<div id="tjg-show-all" class="wp-submenu">
@@ -30,7 +31,7 @@
 					$childtitle = $childpage->post_title;
 					$childID = $childpage->ID;
 					$childDepth = count(get_ancestors($childID, 'page' ));
-
+					$site = get_bloginfo('wpurl');
 					$childlink =  "$site/wp-admin/post.php?post=$childID&action=edit";
 					echo	'<dd class="depth-' .$childDepth . '"> <a href="' . $childlink . '">' . $childtitle . '</a></dd>';
 				}

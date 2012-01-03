@@ -6,7 +6,7 @@ Tested up to: 3.2.1
 Stable tag: trunk
 
 This plugin is used to provide quick access to edit any page in a wordpress site.
-ws
+
 == Description ==
 
 This plug-in adds a toggle button to the top of the Wordpress Admin sidebar that will list all of the pages in your site.  Clicking on the link to the 
@@ -25,4 +25,8 @@ Woprdpress Admin.
 == Changelog ==
 
 = 1.0 =
-* First Version
+* Big Fix: Some versions of firefox were not showing the pages list
+* Bug Fix: Some browsers were not properly setting child page links
+
+= 1.0 =
+* Initial Release

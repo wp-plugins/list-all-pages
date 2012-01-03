@@ -48,11 +48,11 @@
 			}
 		}
 		
-		jQuery(".toplevel_page_show-all-button > a").toggle(function() {
+		jQuery(".toplevel_page_show-all-button > a").toggle(function(event) {
 			if (event.preventDefault) { event.preventDefault(); } else { event.returnValue = false; }
 			jQuery(this).closest("#adminmenu").find("#tjg-show-all").show();
 			clearFloats()
-		}, function() {
+		}, function(event) {
 			if (event.preventDefault) { event.preventDefault(); } else { event.returnValue = false; }
 			jQuery(this).closest("#adminmenu").find("#tjg-show-all").hide();
 		});		
