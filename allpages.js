@@ -58,6 +58,6 @@
 		});		
 		
 		jQuery(window).resize(function()	{
-			clearFloats()
+			clearFloats();
 		});
 	});
