@@ -24,8 +24,8 @@ Woprdpress Admin.
 
 == Changelog ==
 
-= 1.0 =
-* Big Fix: Some versions of firefox were not showing the pages list
+= 1.1 =
+* Bug Fix: Some versions of firefox were not showing the pages list
 * Bug Fix: Some browsers were not properly setting child page links
 
 = 1.0 =
