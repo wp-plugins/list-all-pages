@@ -1,8 +1,8 @@
 === List All Pages ===
-Contributors: TJG-List-All
+Contributors: The Jake Group
 Tags: development, list pages, quick edits
 Requires at least: 3.0.0
-Tested up to: 3.2.1
+Tested up to: 3.4.1
 Stable tag: trunk
 
 This plugin is used to provide quick access to edit any page in a wordpress site.
@@ -23,6 +23,9 @@ Woprdpress Admin.
 1. The plugin on a test site
 
 == Changelog ==
+
+= 1.2 =
+* Bug Fix: Removed potential plugin conflict
 
 = 1.1 =
 * Bug Fix: Some versions of firefox were not showing the pages list
