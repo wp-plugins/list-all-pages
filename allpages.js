@@ -50,7 +50,7 @@
 		
 		jQuery(".toplevel_page_show-all-button > a").toggle(function(event) {
 			if (event.preventDefault) { event.preventDefault(); } else { event.returnValue = false; }
-			jQuery(this).closest("#adminmenu").find("#tjg-show-all").show();
+			jQuery(this).closest("#adminmenu").find("#tjg-show-all").show().css('top', '0px');
 			clearFloats()
 		}, function(event) {
 			if (event.preventDefault) { event.preventDefault(); } else { event.returnValue = false; }
